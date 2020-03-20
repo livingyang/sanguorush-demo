@@ -1,0 +1,1 @@
+cc.RegisterComponent=function(r){return cc.Class({"extends":cc.Component,properties:r.$properties,mixins:[r]})},cc.Property=function(r){return function(t,e){t.constructor.$properties=t.constructor.$properties||{},t.constructor.$properties[e]=r}};
